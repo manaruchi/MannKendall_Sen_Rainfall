@@ -13,8 +13,8 @@ This Python code can take daily precipitation <b>raster</b> data as input and re
 
 * In the python code (mann_sen.py), provide daily precipiation data **folder** in variable inpfol, output folder in variable outfol and confidence value in varaible confidence as follows.
 ```python
-inpfol = r"D:\input"
-outfol = r"E:\output"
+inpfol = r"D:\\input"
+outfol = r"E:\\output"
 confidence = 0.95
 ```
 
