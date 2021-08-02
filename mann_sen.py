@@ -94,7 +94,7 @@ def sen_slope(vals, confidence = 0.95):
     
     #lets find K value
     
-    k = st.norm.ppf(1-(0.05/2)) * se
+    k = st.norm.ppf(1-(alpha/2)) * se
     
     slope = np.median(boxlist)
     return slope, k, se
